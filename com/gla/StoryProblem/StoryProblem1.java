@@ -10,10 +10,8 @@ public class StoryProblem1 {
 
         Scanner sc = new Scanner(System.in);
 
-        // Store ID → Name
         HashMap<Integer, String> students = new HashMap<>();
 
-        // Store ID → Courses
         HashMap<Integer, ArrayList<String>> courses = new HashMap<>();
 
         while (true) {
